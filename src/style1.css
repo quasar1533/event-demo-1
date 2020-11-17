@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#btn {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#button {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#button > div:first-child {
+  background-color: red;
+}
+
+#button > div:nth-child(2) {
+  background-color: green;
+}
+
+#button > div:last-child {
+  background-color: blue;
+}

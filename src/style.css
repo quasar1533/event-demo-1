@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+#rainbow{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+div[class^=level] {
+  border: 1px solid #000;
+  border-radius: 50%;
+}   /* 选中div中属性class的值的前缀有level的元素 */
+
+.level1{
+  padding: 20px;
+  background-color: #FF7476;
+}
+.level2{
+  padding: 20px;
+  background-color: #FFA470;
+}
+.level3{
+  padding: 20px;
+  background-color: #FFE75A;
+}
+.level4{
+  padding: 20px;
+  background-color: #9EE98B;
+}
+.level5{
+  padding: 20px;
+  background-color: #59D7C7;
+}
+.level6{
+  padding: 20px;
+  background-color: #15A4E8;
+}
+.level7{
+  padding: 20px;
+  background-color: #C8A7F7;
+}
+
+.x{
+  background-color: transparent;
+}
